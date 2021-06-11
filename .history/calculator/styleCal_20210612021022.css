@@ -1,0 +1,7 @@
+.app {
+  display: grid;
+  width: 300px;
+  margin: 0 auto;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 50px repeat(5, 30px);
+}
