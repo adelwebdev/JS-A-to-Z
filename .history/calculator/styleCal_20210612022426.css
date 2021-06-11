@@ -10,7 +10,7 @@
     "6 5 4 reset"
     "3 2 1 reset"
     "0 dot plus minus"
-    "equal equal times div";
+    "equal eqaul times div";
   border: 2px solid teal;
   border-radius: 4px;
 }
@@ -23,17 +23,8 @@ h3 {
 button {
   background: teal;
   color: whitesmoke;
-  border: 1px solid rgb(42, 236, 236);
+  border: 1px solid teal;
   border-radius: 4px;
   cursor: pointer;
   transition: 0.2s;
-}
-button:hover {
-  background: rgb(5, 190, 190);
-}
-#equal {
-  grid-area: equal;
-}
-#clear {
-  grid-area: reset;
 }
