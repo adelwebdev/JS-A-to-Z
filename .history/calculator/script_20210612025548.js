@@ -3,9 +3,8 @@ const result = document.getElementById("result");
 console.log(buttons);
 console.log(result);
 
-buttons.forEach((button) => {
-  button.addEventListener("click", (e) => {
-    console.log(e.target.id);
-    result.textContent = e.target.id;
+buttons.forEach((buttons) => {
+  buttons.addEventListener("click", (e) => {
+    console.log(e);
   });
 });

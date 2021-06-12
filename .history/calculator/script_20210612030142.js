@@ -5,7 +5,6 @@ console.log(result);
 
 buttons.forEach((button) => {
   button.addEventListener("click", (e) => {
-    console.log(e.target.id);
-    result.textContent = e.target.id;
+    console.log(e.target);
   });
 });
